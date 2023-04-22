@@ -1,0 +1,188 @@
+2023-03-22 16:47:23,629 INFO main MainThread : Staring Local Development.
+2023-03-22 16:47:23,638 INFO main MainThread : App setup complete
+2023-03-22 16:47:23,640 DEBUG passlib.registry MainThread : registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+2023-03-22 16:47:23,642 DEBUG passlib.registry MainThread : registered 'argon2' handler: <class 'passlib.handlers.argon2.argon2'>
+2023-03-22 16:47:23,646 DEBUG passlib.registry MainThread : registered 'des_crypt' handler: <class 'passlib.handlers.des_crypt.des_crypt'>
+2023-03-22 16:47:23,646 DEBUG passlib.registry MainThread : registered 'pbkdf2_sha512' handler: <class 'passlib.handlers.pbkdf2.pbkdf2_sha512'>
+2023-03-22 16:47:23,646 DEBUG passlib.registry MainThread : registered 'sha256_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha256_crypt'>
+2023-03-22 16:47:23,646 DEBUG passlib.registry MainThread : registered 'sha512_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha512_crypt'>
+2023-03-22 16:47:23,647 DEBUG passlib.registry MainThread : registered 'plaintext' handler: <class 'passlib.handlers.misc.plaintext'>
+2023-03-22 16:47:23,648 DEBUG passlib.registry MainThread : registered 'hex_md5' handler: <class 'passlib.handlers.digests.hex_md5'>
+2023-03-22 16:47:23,665 INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.43.116:8080
+2023-03-22 16:47:23,665 INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m
+2023-03-22 16:47:23,666 INFO werkzeug MainThread :  * Restarting with stat
+2023-03-22 16:47:24,120 INFO main MainThread : Staring Local Development.
+2023-03-22 16:47:24,128 INFO main MainThread : App setup complete
+2023-03-22 16:47:24,131 DEBUG passlib.registry MainThread : registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+2023-03-22 16:47:24,133 DEBUG passlib.registry MainThread : registered 'argon2' handler: <class 'passlib.handlers.argon2.argon2'>
+2023-03-22 16:47:24,136 DEBUG passlib.registry MainThread : registered 'des_crypt' handler: <class 'passlib.handlers.des_crypt.des_crypt'>
+2023-03-22 16:47:24,137 DEBUG passlib.registry MainThread : registered 'pbkdf2_sha512' handler: <class 'passlib.handlers.pbkdf2.pbkdf2_sha512'>
+2023-03-22 16:47:24,137 DEBUG passlib.registry MainThread : registered 'sha256_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha256_crypt'>
+2023-03-22 16:47:24,137 DEBUG passlib.registry MainThread : registered 'sha512_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha512_crypt'>
+2023-03-22 16:47:24,138 DEBUG passlib.registry MainThread : registered 'plaintext' handler: <class 'passlib.handlers.misc.plaintext'>
+2023-03-22 16:47:24,139 DEBUG passlib.registry MainThread : registered 'hex_md5' handler: <class 'passlib.handlers.digests.hex_md5'>
+2023-03-22 16:47:24,157 WARNING werkzeug MainThread :  * Debugger is active!
+2023-03-22 16:47:24,157 INFO werkzeug MainThread :  * Debugger PIN: 712-797-808
+2023-03-22 16:47:38,610 INFO main Thread-2 : Inside get all articles using info
+2023-03-22 16:47:38,612 DEBUG main Thread-2 : Inside get all articles using debug
+2023-03-22 16:47:38,631 INFO werkzeug Thread-2 : 127.0.0.1 - - [22/Mar/2023 16:47:38] "GET / HTTP/1.1" 200 -
+2023-03-22 16:47:38,679 INFO werkzeug Thread-4 : 127.0.0.1 - - [22/Mar/2023 16:47:38] "GET /static/style.css HTTP/1.1" 200 -
+2023-03-22 16:47:38,681 INFO werkzeug Thread-5 : 127.0.0.1 - - [22/Mar/2023 16:47:38] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 -
+2023-03-22 16:47:38,683 INFO werkzeug Thread-3 : 127.0.0.1 - - [22/Mar/2023 16:47:38] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 -
+2023-03-22 16:47:38,688 INFO werkzeug Thread-6 : 127.0.0.1 - - [22/Mar/2023 16:47:38] "GET /static/js/custom.js HTTP/1.1" 200 -
+2023-03-22 16:47:41,404 INFO werkzeug Thread-7 : 127.0.0.1 - - [22/Mar/2023 16:47:41] "[36mGET /static/bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2023-03-22 16:47:41,407 INFO werkzeug Thread-8 : 127.0.0.1 - - [22/Mar/2023 16:47:41] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-03-22 16:47:41,496 INFO werkzeug Thread-9 : 127.0.0.1 - - [22/Mar/2023 16:47:41] "GET /static/bootstrap/js/bootstrap.min.js.map HTTP/1.1" 200 -
+2023-03-22 16:47:41,564 INFO werkzeug Thread-10 : 127.0.0.1 - - [22/Mar/2023 16:47:41] "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 -
+2023-03-22 16:48:13,309 INFO werkzeug Thread-11 : 127.0.0.1 - - [22/Mar/2023 16:48:13] "[32mGET /logout HTTP/1.1[0m" 302 -
+2023-03-22 16:48:13,315 INFO main Thread-12 : Inside get all articles using info
+2023-03-22 16:48:13,316 DEBUG main Thread-12 : Inside get all articles using debug
+2023-03-22 16:48:13,323 INFO werkzeug Thread-12 : 127.0.0.1 - - [22/Mar/2023 16:48:13] "GET / HTTP/1.1" 200 -
+2023-03-22 16:48:13,381 INFO werkzeug Thread-13 : 127.0.0.1 - - [22/Mar/2023 16:48:13] "[36mGET /static/bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2023-03-22 16:48:13,393 INFO werkzeug Thread-15 : 127.0.0.1 - - [22/Mar/2023 16:48:13] "[36mGET /static/bootstrap/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2023-03-22 16:48:13,394 INFO werkzeug Thread-14 : 127.0.0.1 - - [22/Mar/2023 16:48:13] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-03-22 16:48:13,402 INFO werkzeug Thread-16 : 127.0.0.1 - - [22/Mar/2023 16:48:13] "[36mGET /static/js/custom.js HTTP/1.1[0m" 304 -
+2023-03-22 16:48:13,498 INFO werkzeug Thread-17 : 127.0.0.1 - - [22/Mar/2023 16:48:13] "GET /static/bootstrap/js/bootstrap.min.js.map HTTP/1.1" 200 -
+2023-03-22 16:48:13,520 INFO werkzeug Thread-18 : 127.0.0.1 - - [22/Mar/2023 16:48:13] "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 -
+2023-03-22 16:48:26,994 INFO main Thread-19 : Inside get all articles using info
+2023-03-22 16:48:26,998 DEBUG main Thread-19 : Inside get all articles using debug
+2023-03-22 16:48:27,022 INFO werkzeug Thread-19 : 127.0.0.1 - - [22/Mar/2023 16:48:27] "GET / HTTP/1.1" 200 -
+2023-03-22 16:48:27,098 INFO werkzeug Thread-20 : 127.0.0.1 - - [22/Mar/2023 16:48:27] "[36mGET /static/bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2023-03-22 16:48:27,102 INFO werkzeug Thread-21 : 127.0.0.1 - - [22/Mar/2023 16:48:27] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-03-22 16:48:27,114 INFO werkzeug Thread-22 : 127.0.0.1 - - [22/Mar/2023 16:48:27] "[36mGET /static/bootstrap/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2023-03-22 16:48:27,117 INFO werkzeug Thread-23 : 127.0.0.1 - - [22/Mar/2023 16:48:27] "[36mGET /static/js/custom.js HTTP/1.1[0m" 304 -
+2023-03-22 16:48:27,204 INFO werkzeug Thread-24 : 127.0.0.1 - - [22/Mar/2023 16:48:27] "GET /static/bootstrap/js/bootstrap.min.js.map HTTP/1.1" 200 -
+2023-03-22 16:48:27,227 INFO werkzeug Thread-25 : 127.0.0.1 - - [22/Mar/2023 16:48:27] "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 -
+2023-03-22 16:48:28,773 INFO werkzeug Thread-26 : 127.0.0.1 - - [22/Mar/2023 16:48:28] "GET /login HTTP/1.1" 200 -
+2023-03-22 16:48:39,667 DEBUG passlib.handlers.bcrypt Thread-27 : detected 'bcrypt' backend, version '4.0.1'
+2023-03-22 16:48:39,667 DEBUG passlib.handlers.bcrypt Thread-27 : 'bcrypt' backend lacks $2$ support, enabling workaround
+2023-03-22 16:48:39,922 INFO werkzeug Thread-27 : 127.0.0.1 - - [22/Mar/2023 16:48:39] "[32mPOST /login HTTP/1.1[0m" 302 -
+2023-03-22 16:48:39,927 INFO main Thread-28 : Inside get all articles using info
+2023-03-22 16:48:39,928 DEBUG main Thread-28 : Inside get all articles using debug
+2023-03-22 16:48:39,932 INFO werkzeug Thread-28 : 127.0.0.1 - - [22/Mar/2023 16:48:39] "GET / HTTP/1.1" 200 -
+2023-03-22 16:48:39,970 INFO werkzeug Thread-29 : 127.0.0.1 - - [22/Mar/2023 16:48:39] "[36mGET /static/bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2023-03-22 16:48:39,976 INFO werkzeug Thread-30 : 127.0.0.1 - - [22/Mar/2023 16:48:39] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-03-22 16:48:39,982 INFO werkzeug Thread-31 : 127.0.0.1 - - [22/Mar/2023 16:48:39] "[36mGET /static/bootstrap/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2023-03-22 16:48:39,988 INFO werkzeug Thread-32 : 127.0.0.1 - - [22/Mar/2023 16:48:39] "[36mGET /static/js/custom.js HTTP/1.1[0m" 304 -
+2023-03-22 16:48:40,046 INFO werkzeug Thread-33 : 127.0.0.1 - - [22/Mar/2023 16:48:40] "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 -
+2023-03-22 16:48:40,087 INFO werkzeug Thread-34 : 127.0.0.1 - - [22/Mar/2023 16:48:40] "GET /static/bootstrap/js/bootstrap.min.js.map HTTP/1.1" 200 -
+2023-03-22 16:48:59,711 INFO main Thread-35 : Inside get all articles using info
+2023-03-22 16:48:59,715 DEBUG main Thread-35 : Inside get all articles using debug
+2023-03-22 16:48:59,723 INFO werkzeug Thread-35 : 127.0.0.1 - - [22/Mar/2023 16:48:59] "GET / HTTP/1.1" 200 -
+2023-03-22 16:48:59,770 INFO werkzeug Thread-36 : 127.0.0.1 - - [22/Mar/2023 16:48:59] "[36mGET /static/bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2023-03-22 16:48:59,775 INFO werkzeug Thread-37 : 127.0.0.1 - - [22/Mar/2023 16:48:59] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-03-22 16:48:59,782 INFO werkzeug Thread-38 : 127.0.0.1 - - [22/Mar/2023 16:48:59] "[36mGET /static/bootstrap/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2023-03-22 16:48:59,786 INFO werkzeug Thread-39 : 127.0.0.1 - - [22/Mar/2023 16:48:59] "[36mGET /static/js/custom.js HTTP/1.1[0m" 304 -
+2023-03-22 16:49:02,425 INFO werkzeug Thread-40 : 127.0.0.1 - - [22/Mar/2023 16:49:02] "[36mGET /static/bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2023-03-22 16:49:02,427 INFO werkzeug Thread-41 : 127.0.0.1 - - [22/Mar/2023 16:49:02] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-03-22 16:49:02,500 INFO werkzeug Thread-42 : 127.0.0.1 - - [22/Mar/2023 16:49:02] "GET /static/bootstrap/js/bootstrap.min.js.map HTTP/1.1" 200 -
+2023-03-22 16:49:02,554 INFO werkzeug Thread-43 : 127.0.0.1 - - [22/Mar/2023 16:49:02] "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 -
+2023-03-22 16:49:29,533 INFO main Thread-44 : Inside get all articles using info
+2023-03-22 16:49:29,538 DEBUG main Thread-44 : Inside get all articles using debug
+2023-03-22 16:49:29,552 INFO werkzeug Thread-44 : 127.0.0.1 - - [22/Mar/2023 16:49:29] "GET / HTTP/1.1" 200 -
+2023-03-22 16:49:29,609 INFO werkzeug Thread-46 : 127.0.0.1 - - [22/Mar/2023 16:49:29] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-03-22 16:49:29,610 INFO werkzeug Thread-45 : 127.0.0.1 - - [22/Mar/2023 16:49:29] "[36mGET /static/bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2023-03-22 16:49:29,622 INFO werkzeug Thread-47 : 127.0.0.1 - - [22/Mar/2023 16:49:29] "[36mGET /static/bootstrap/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2023-03-22 16:49:29,625 INFO werkzeug Thread-48 : 127.0.0.1 - - [22/Mar/2023 16:49:29] "[36mGET /static/js/custom.js HTTP/1.1[0m" 304 -
+2023-03-22 16:49:29,704 INFO werkzeug Thread-49 : 127.0.0.1 - - [22/Mar/2023 16:49:29] "GET /static/bootstrap/js/bootstrap.min.js.map HTTP/1.1" 200 -
+2023-03-22 16:49:29,744 INFO werkzeug Thread-50 : 127.0.0.1 - - [22/Mar/2023 16:49:29] "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 -
+2023-03-22 18:33:27,967 INFO main Thread-51 : Inside get all articles using info
+2023-03-22 18:33:27,973 DEBUG main Thread-51 : Inside get all articles using debug
+2023-03-22 18:33:28,001 INFO werkzeug Thread-51 : 127.0.0.1 - - [22/Mar/2023 18:33:28] "GET / HTTP/1.1" 200 -
+2023-03-22 18:33:28,066 INFO werkzeug Thread-53 : 127.0.0.1 - - [22/Mar/2023 18:33:28] "[36mGET /static/bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2023-03-22 18:33:28,072 INFO werkzeug Thread-55 : 127.0.0.1 - - [22/Mar/2023 18:33:28] "[36mGET /static/bootstrap/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2023-03-22 18:33:28,073 INFO werkzeug Thread-54 : 127.0.0.1 - - [22/Mar/2023 18:33:28] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-03-22 18:33:28,074 INFO werkzeug Thread-52 : 127.0.0.1 - - [22/Mar/2023 18:33:28] "GET /static/js/app.js HTTP/1.1" 200 -
+2023-03-22 18:33:28,076 INFO werkzeug Thread-56 : 127.0.0.1 - - [22/Mar/2023 18:33:28] "[36mGET /static/js/custom.js HTTP/1.1[0m" 304 -
+2023-03-22 18:33:29,798 INFO main Thread-57 : Inside get all articles using info
+2023-03-22 18:33:29,799 DEBUG main Thread-57 : Inside get all articles using debug
+2023-03-22 18:33:29,807 INFO werkzeug Thread-57 : 127.0.0.1 - - [22/Mar/2023 18:33:29] "GET / HTTP/1.1" 200 -
+2023-03-22 18:33:29,870 INFO werkzeug Thread-59 : 127.0.0.1 - - [22/Mar/2023 18:33:29] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-03-22 18:33:29,871 INFO werkzeug Thread-58 : 127.0.0.1 - - [22/Mar/2023 18:33:29] "[36mGET /static/bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2023-03-22 18:33:29,878 INFO werkzeug Thread-60 : 127.0.0.1 - - [22/Mar/2023 18:33:29] "[36mGET /static/bootstrap/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2023-03-22 18:33:29,883 INFO werkzeug Thread-62 : 127.0.0.1 - - [22/Mar/2023 18:33:29] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2023-03-22 18:33:29,886 INFO werkzeug Thread-61 : 127.0.0.1 - - [22/Mar/2023 18:33:29] "[36mGET /static/js/custom.js HTTP/1.1[0m" 304 -
+2023-03-22 18:33:32,243 INFO werkzeug Thread-63 : 127.0.0.1 - - [22/Mar/2023 18:33:32] "[32mGET /logout HTTP/1.1[0m" 302 -
+2023-03-22 18:33:32,250 INFO main Thread-64 : Inside get all articles using info
+2023-03-22 18:33:32,252 DEBUG main Thread-64 : Inside get all articles using debug
+2023-03-22 18:33:32,258 INFO werkzeug Thread-64 : 127.0.0.1 - - [22/Mar/2023 18:33:32] "GET / HTTP/1.1" 200 -
+2023-03-22 18:33:32,304 INFO werkzeug Thread-65 : 127.0.0.1 - - [22/Mar/2023 18:33:32] "[36mGET /static/bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2023-03-22 18:33:32,310 INFO werkzeug Thread-66 : 127.0.0.1 - - [22/Mar/2023 18:33:32] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-03-22 18:33:32,311 INFO werkzeug Thread-67 : 127.0.0.1 - - [22/Mar/2023 18:33:32] "[36mGET /static/bootstrap/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2023-03-22 18:33:32,318 INFO werkzeug Thread-69 : 127.0.0.1 - - [22/Mar/2023 18:33:32] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2023-03-22 18:33:32,318 INFO werkzeug Thread-68 : 127.0.0.1 - - [22/Mar/2023 18:33:32] "[36mGET /static/js/custom.js HTTP/1.1[0m" 304 -
+2023-03-22 18:33:33,520 INFO main Thread-70 : Inside get all articles using info
+2023-03-22 18:33:33,524 DEBUG main Thread-70 : Inside get all articles using debug
+2023-03-22 18:33:33,547 INFO werkzeug Thread-70 : 127.0.0.1 - - [22/Mar/2023 18:33:33] "GET / HTTP/1.1" 200 -
+2023-03-22 18:33:33,613 INFO werkzeug Thread-72 : 127.0.0.1 - - [22/Mar/2023 18:33:33] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-03-22 18:33:33,619 INFO werkzeug Thread-71 : 127.0.0.1 - - [22/Mar/2023 18:33:33] "[36mGET /static/bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2023-03-22 18:33:33,623 INFO werkzeug Thread-74 : 127.0.0.1 - - [22/Mar/2023 18:33:33] "[36mGET /static/js/custom.js HTTP/1.1[0m" 304 -
+2023-03-22 18:33:33,624 INFO werkzeug Thread-73 : 127.0.0.1 - - [22/Mar/2023 18:33:33] "[36mGET /static/bootstrap/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2023-03-22 18:33:33,627 INFO werkzeug Thread-75 : 127.0.0.1 - - [22/Mar/2023 18:33:33] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2023-03-22 18:33:59,524 INFO main Thread-76 : Inside get all articles using info
+2023-03-22 18:33:59,531 DEBUG main Thread-76 : Inside get all articles using debug
+2023-03-22 18:33:59,543 INFO werkzeug Thread-76 : 127.0.0.1 - - [22/Mar/2023 18:33:59] "GET / HTTP/1.1" 200 -
+2023-03-22 18:33:59,591 INFO werkzeug Thread-77 : 127.0.0.1 - - [22/Mar/2023 18:33:59] "[36mGET /static/bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2023-03-22 18:33:59,593 INFO werkzeug Thread-78 : 127.0.0.1 - - [22/Mar/2023 18:33:59] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-03-22 18:33:59,597 INFO werkzeug Thread-79 : 127.0.0.1 - - [22/Mar/2023 18:33:59] "[36mGET /static/bootstrap/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2023-03-22 18:33:59,600 INFO werkzeug Thread-80 : 127.0.0.1 - - [22/Mar/2023 18:33:59] "[36mGET /static/js/custom.js HTTP/1.1[0m" 304 -
+2023-03-22 18:33:59,606 INFO werkzeug Thread-81 : 127.0.0.1 - - [22/Mar/2023 18:33:59] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2023-03-22 18:34:11,338 INFO main Thread-82 : Inside get all articles using info
+2023-03-22 18:34:11,340 DEBUG main Thread-82 : Inside get all articles using debug
+2023-03-22 18:34:11,350 INFO werkzeug Thread-82 : 127.0.0.1 - - [22/Mar/2023 18:34:11] "GET / HTTP/1.1" 200 -
+2023-03-22 18:34:11,384 INFO werkzeug Thread-83 : 127.0.0.1 - - [22/Mar/2023 18:34:11] "[36mGET /static/bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2023-03-22 18:34:11,392 INFO werkzeug Thread-84 : 127.0.0.1 - - [22/Mar/2023 18:34:11] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-03-22 18:34:11,399 INFO werkzeug Thread-85 : 127.0.0.1 - - [22/Mar/2023 18:34:11] "[36mGET /static/bootstrap/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2023-03-22 18:34:11,402 INFO werkzeug Thread-86 : 127.0.0.1 - - [22/Mar/2023 18:34:11] "[36mGET /static/js/custom.js HTTP/1.1[0m" 304 -
+2023-03-22 18:34:11,404 INFO werkzeug Thread-87 : 127.0.0.1 - - [22/Mar/2023 18:34:11] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2023-03-22 18:34:52,807 INFO main Thread-88 : Inside get all articles using info
+2023-03-22 18:34:52,808 DEBUG main Thread-88 : Inside get all articles using debug
+2023-03-22 18:34:52,817 INFO werkzeug Thread-88 : 127.0.0.1 - - [22/Mar/2023 18:34:52] "GET / HTTP/1.1" 200 -
+2023-03-22 18:34:52,848 INFO werkzeug Thread-89 : 127.0.0.1 - - [22/Mar/2023 18:34:52] "[36mGET /static/bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2023-03-22 18:34:52,858 INFO werkzeug Thread-90 : 127.0.0.1 - - [22/Mar/2023 18:34:52] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-03-22 18:34:52,859 INFO werkzeug Thread-91 : 127.0.0.1 - - [22/Mar/2023 18:34:52] "[36mGET /static/bootstrap/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2023-03-22 18:34:52,863 INFO werkzeug Thread-92 : 127.0.0.1 - - [22/Mar/2023 18:34:52] "[36mGET /static/js/custom.js HTTP/1.1[0m" 304 -
+2023-03-22 18:34:52,863 INFO werkzeug Thread-93 : 127.0.0.1 - - [22/Mar/2023 18:34:52] "GET /static/js/app.js HTTP/1.1" 200 -
+2023-03-22 18:34:54,813 INFO main Thread-94 : Inside get all articles using info
+2023-03-22 18:34:54,818 DEBUG main Thread-94 : Inside get all articles using debug
+2023-03-22 18:34:54,833 INFO werkzeug Thread-94 : 127.0.0.1 - - [22/Mar/2023 18:34:54] "GET / HTTP/1.1" 200 -
+2023-03-22 18:34:54,876 INFO werkzeug Thread-95 : 127.0.0.1 - - [22/Mar/2023 18:34:54] "[36mGET /static/bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2023-03-22 18:34:54,882 INFO werkzeug Thread-96 : 127.0.0.1 - - [22/Mar/2023 18:34:54] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-03-22 18:34:54,885 INFO werkzeug Thread-97 : 127.0.0.1 - - [22/Mar/2023 18:34:54] "[36mGET /static/bootstrap/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2023-03-22 18:34:54,887 INFO werkzeug Thread-98 : 127.0.0.1 - - [22/Mar/2023 18:34:54] "[36mGET /static/js/custom.js HTTP/1.1[0m" 304 -
+2023-03-22 18:34:54,895 INFO werkzeug Thread-99 : 127.0.0.1 - - [22/Mar/2023 18:34:54] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2023-03-22 18:36:40,347 INFO main Thread-100 : Inside get all articles using info
+2023-03-22 18:36:40,355 DEBUG main Thread-100 : Inside get all articles using debug
+2023-03-22 18:36:40,372 INFO werkzeug Thread-100 : 127.0.0.1 - - [22/Mar/2023 18:36:40] "GET / HTTP/1.1" 200 -
+2023-03-22 18:36:40,433 INFO werkzeug Thread-101 : 127.0.0.1 - - [22/Mar/2023 18:36:40] "[36mGET /static/bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2023-03-22 18:36:40,441 INFO werkzeug Thread-102 : 127.0.0.1 - - [22/Mar/2023 18:36:40] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-03-22 18:36:40,446 INFO werkzeug Thread-103 : 127.0.0.1 - - [22/Mar/2023 18:36:40] "[36mGET /static/bootstrap/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2023-03-22 18:36:40,448 INFO werkzeug Thread-104 : 127.0.0.1 - - [22/Mar/2023 18:36:40] "[36mGET /static/js/custom.js HTTP/1.1[0m" 304 -
+2023-03-22 18:36:40,452 INFO werkzeug Thread-105 : 127.0.0.1 - - [22/Mar/2023 18:36:40] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2023-03-22 18:39:37,216 INFO main Thread-106 : Inside get all articles using info
+2023-03-22 18:39:37,220 DEBUG main Thread-106 : Inside get all articles using debug
+2023-03-22 18:39:37,234 INFO werkzeug Thread-106 : 127.0.0.1 - - [22/Mar/2023 18:39:37] "GET / HTTP/1.1" 200 -
+2023-03-22 18:39:37,283 INFO werkzeug Thread-107 : 127.0.0.1 - - [22/Mar/2023 18:39:37] "[36mGET /static/bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2023-03-22 18:39:37,284 INFO werkzeug Thread-108 : 127.0.0.1 - - [22/Mar/2023 18:39:37] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-03-22 18:39:37,289 INFO werkzeug Thread-109 : 127.0.0.1 - - [22/Mar/2023 18:39:37] "[36mGET /static/bootstrap/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2023-03-22 18:39:37,292 INFO werkzeug Thread-110 : 127.0.0.1 - - [22/Mar/2023 18:39:37] "[36mGET /static/js/custom.js HTTP/1.1[0m" 304 -
+2023-03-22 18:39:37,295 INFO werkzeug Thread-111 : 127.0.0.1 - - [22/Mar/2023 18:39:37] "GET /static/js/app.js HTTP/1.1" 200 -
+2023-03-22 18:39:59,378 INFO main Thread-112 : Inside get all articles using info
+2023-03-22 18:39:59,386 DEBUG main Thread-112 : Inside get all articles using debug
+2023-03-22 18:39:59,409 INFO werkzeug Thread-112 : 127.0.0.1 - - [22/Mar/2023 18:39:59] "GET / HTTP/1.1" 200 -
+2023-03-22 18:39:59,491 INFO werkzeug Thread-113 : 127.0.0.1 - - [22/Mar/2023 18:39:59] "[36mGET /static/bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2023-03-22 18:39:59,494 INFO werkzeug Thread-114 : 127.0.0.1 - - [22/Mar/2023 18:39:59] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-03-22 18:39:59,496 INFO werkzeug Thread-116 : 127.0.0.1 - - [22/Mar/2023 18:39:59] "[36mGET /static/js/custom.js HTTP/1.1[0m" 304 -
+2023-03-22 18:39:59,498 INFO werkzeug Thread-115 : 127.0.0.1 - - [22/Mar/2023 18:39:59] "[36mGET /static/bootstrap/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2023-03-22 18:39:59,505 INFO werkzeug Thread-117 : 127.0.0.1 - - [22/Mar/2023 18:39:59] "GET /static/js/app.js HTTP/1.1" 200 -
+2023-03-22 18:40:16,646 INFO main Thread-118 : Inside get all articles using info
+2023-03-22 18:40:16,652 DEBUG main Thread-118 : Inside get all articles using debug
+2023-03-22 18:40:16,681 INFO werkzeug Thread-118 : 127.0.0.1 - - [22/Mar/2023 18:40:16] "GET / HTTP/1.1" 200 -
+2023-03-22 18:40:16,761 INFO werkzeug Thread-119 : 127.0.0.1 - - [22/Mar/2023 18:40:16] "[36mGET /static/bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2023-03-22 18:40:16,765 INFO werkzeug Thread-120 : 127.0.0.1 - - [22/Mar/2023 18:40:16] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-03-22 18:40:16,772 INFO werkzeug Thread-121 : 127.0.0.1 - - [22/Mar/2023 18:40:16] "[36mGET /static/bootstrap/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2023-03-22 18:40:16,775 INFO werkzeug Thread-123 : 127.0.0.1 - - [22/Mar/2023 18:40:16] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2023-03-22 18:40:16,777 INFO werkzeug Thread-122 : 127.0.0.1 - - [22/Mar/2023 18:40:16] "[36mGET /static/js/custom.js HTTP/1.1[0m" 304 -

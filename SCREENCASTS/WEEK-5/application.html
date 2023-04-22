@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello World</title>
+
+    <!-- development version, includes helpful console warnings -->
+    <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+</head>
+<body>
+    <div id="app">
+        <h3>Total number of messages received till now {{ global_count }}</h3>
+        <table>
+            <tr>
+                <td>
+                    <message-board title="Ram's board" v-on:add-to-global-count="count_global"></message-board>
+                </td>
+                <td>
+                    <message-board title="Ranjith's board" v-on:add-to-global-count="count_global"></message-board>
+                </td>
+                <td>
+                    <message-board title="Bagavathi's board" v-on:add-to-global-count="count_global"></message-board>
+                </td>
+            </tr>
+        </table>
+    </div>
+</body>
+<script type="text/javascript" src="application.js"></script>
+</html>
